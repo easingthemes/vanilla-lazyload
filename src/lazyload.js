@@ -12,11 +12,6 @@ import { unobserve } from "./unobserve.js";
 import { restore } from "./restore.js";
 import { deleteOriginalAttrs } from "./originalAttributes.js";
 
-// Import for later
-import { resetSourcesImg } from "./reset.js";
-import { safeCallback } from "./callback.js";
-import { cancelLoading } from "./cancelOnExit.js";
-
 const LazyLoad = function(customSettings, elements) {
   const settings = getExtendedSettings(customSettings);
   this._settings = settings;
