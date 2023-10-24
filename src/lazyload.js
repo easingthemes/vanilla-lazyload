@@ -1,16 +1,16 @@
-import { getExtendedSettings } from "./defaults";
-import { autoInitialize } from "./autoInitialize";
-import { load } from "./load";
-import { setObserver, updateObserver } from "./intersectionObserver";
-import { isBot, runningOnBrowser, supportsIntersectionObserver } from "./environment";
-import { loadAllNative, shouldUseNative } from "./native";
-import { resetOnlineCheck, setOnlineCheck } from "./online";
-import { getElementsToLoad, queryElements } from "./dom";
-import { resetStatus } from "./data";
-import { setToLoadCount } from "./counters";
-import { unobserve } from "./unobserve";
-import { restore } from "./restore";
-import { deleteOriginalAttrs } from "./originalAttributes";
+import { getExtendedSettings } from "./defaults.js";
+import { autoInitialize } from "./autoInitialize.js";
+import { load } from "./load.js";
+import { setObserver, updateObserver } from "./intersectionObserver.js";
+import { isBot, runningOnBrowser, supportsIntersectionObserver } from "./environment.js";
+import { loadAllNative, shouldUseNative } from "./native.js";
+import { resetOnlineCheck, setOnlineCheck } from "./online.js";
+import { getElementsToLoad, queryElements } from "./dom.js";
+import { resetStatus } from "./data.js";
+import { setToLoadCount } from "./counters.js";
+import { unobserve } from "./unobserve.js";
+import { restore } from "./restore.js";
+import { deleteOriginalAttrs } from "./originalAttributes.js";
 
 const LazyLoad = function(customSettings, elements) {
   const settings = getExtendedSettings(customSettings);

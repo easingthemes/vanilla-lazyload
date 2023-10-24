@@ -1,4 +1,4 @@
-import { supportsIntersectionObserver } from "./environment";
+import { supportsIntersectionObserver } from "./environment.js";
 import { onEnter, onExit } from "./intersectionHandlers";
 import { shouldUseNative } from "./native";
 import { resetObserver } from "./unobserve";

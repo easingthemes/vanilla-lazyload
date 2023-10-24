@@ -1,8 +1,8 @@
-import expectExtend from "./lib/expectExtend";
-import getFakeInstance from "./lib/getFakeInstance";
-import { getExtendedSettings } from "../defaults";
+import expectExtend from "./lib/expectExtend.js";
+import getFakeInstance from "./lib/getFakeInstance.js";
+import { getExtendedSettings } from "../defaults.js";
 
-import { setBackground, setMultiBackground, setSources } from "../set";
+import { setBackground, setMultiBackground, setSources } from "../set.js";
 
 expectExtend(expect);
 

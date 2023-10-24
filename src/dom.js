@@ -1,4 +1,4 @@
-import { hasEmptyStatus, hasStatusError } from "./data";
+import { hasEmptyStatus, hasStatusError } from "./data.js";
 
 export const toArray = (nodeSet) => Array.prototype.slice.call(nodeSet);
 

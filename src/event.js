@@ -1,11 +1,11 @@
-import { addClass, removeClass } from "./class";
-import { safeCallback } from "./callback";
-import { hasStatusNative, setStatus } from "./data";
-import { statusError, statusLoaded } from "./elementStatus";
-import { deleteTempImage, getTempImage } from "./tempImage";
-import { unobserve } from "./unobserve";
-import { decreaseToLoadCount, haveElementsToLoad, isSomethingLoading, updateLoadingCount } from "./counters";
-import { attrsSrcSrcsetSizes, restoreOriginalAttrs } from "./originalAttributes";
+import { addClass, removeClass } from "./class.js";
+import { safeCallback } from "./callback.js";
+import { hasStatusNative, setStatus } from "./data.js";
+import { statusError, statusLoaded } from "./elementStatus.js";
+import { deleteTempImage, getTempImage } from "./tempImage.js";
+import { unobserve } from "./unobserve.js";
+import { decreaseToLoadCount, haveElementsToLoad, isSomethingLoading, updateLoadingCount } from "./counters.js";
+import { attrsSrcSrcsetSizes, restoreOriginalAttrs } from "./originalAttributes.js";
 
 const elementsWithLoadEvent = ["IMG", "IFRAME", "VIDEO", "OBJECT"];
 export const hasLoadEvent = (element) => elementsWithLoadEvent.indexOf(element.tagName) > -1;

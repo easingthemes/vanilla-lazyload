@@ -1,7 +1,7 @@
-import { runningOnBrowser } from "./environment";
-import { resetStatus } from "./data";
-import { removeClass } from "./class";
-import { filterErrorElements, queryElements } from "./dom";
+import { runningOnBrowser } from "./environment.js";
+import { resetStatus } from "./data.js";
+import { removeClass } from "./class.js";
+import { filterErrorElements, queryElements } from "./dom.js";
 
 export const retryLazyLoad = (settings, instance) => {
   const errorElements = filterErrorElements(queryElements(settings));

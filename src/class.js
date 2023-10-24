@@ -1,4 +1,4 @@
-import { supportsClassList } from "./environment";
+import { supportsClassList } from "./environment.js";
 
 export const addClass = (element, className) => {
   if (supportsClassList) {

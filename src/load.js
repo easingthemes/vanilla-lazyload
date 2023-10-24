@@ -1,9 +1,9 @@
-import { setBackground, setImgsetBackground, setMultiBackground, setSources, setSourcesNative } from "./set";
-import { setStatus } from "./data";
-import { addOneShotEventListeners, hasLoadEvent } from "./event";
-import { statusNative } from "./elementStatus";
-import { addTempImage } from "./tempImage";
-import { saveOriginalBackgroundStyle } from "./originalAttributes";
+import { setBackground, setImgsetBackground, setMultiBackground, setSources, setSourcesNative } from "./set.js";
+import { setStatus } from "./data.js";
+import { addOneShotEventListeners, hasLoadEvent } from "./event.js";
+import { statusNative } from "./elementStatus.js";
+import { addTempImage } from "./tempImage.js";
+import { saveOriginalBackgroundStyle } from "./originalAttributes.js";
 
 const loadBackground = (element, settings, instance) => {
   addTempImage(element);

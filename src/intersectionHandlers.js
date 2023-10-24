@@ -1,10 +1,10 @@
-import { safeCallback } from "./callback";
-import { load } from "./load";
-import { hadStartedLoading, hasEmptyStatus, setStatus } from "./data";
-import { cancelLoading } from "./cancelOnExit";
-import { unobserveEntered } from "./unobserve";
-import { statusEntered } from "./elementStatus";
-import { addClass, removeClass } from "./class";
+import { safeCallback } from "./callback.js";
+import { load } from "./load.js";
+import { hadStartedLoading, hasEmptyStatus, setStatus } from "./data.js";
+import { cancelLoading } from "./cancelOnExit.js";
+import { unobserveEntered } from "./unobserve.js";
+import { statusEntered } from "./elementStatus.js";
+import { addClass, removeClass } from "./class.js";
 
 export const onEnter = (element, entry, settings, instance) => {
   const dontLoad = hadStartedLoading(element); /* Save status

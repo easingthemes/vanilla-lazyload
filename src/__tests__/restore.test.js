@@ -1,4 +1,4 @@
-import expectExtend from "./lib/expectExtend";
+import expectExtend from "./lib/expectExtend.js";
 import getFakeInstance from "./lib/getFakeInstance";
 import { getExtendedSettings } from "../defaults";
 import { restore } from "../restore";

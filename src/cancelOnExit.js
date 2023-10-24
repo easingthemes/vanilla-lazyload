@@ -1,10 +1,10 @@
-import { removeEventListeners } from "./event";
-import { resetSourcesImg } from "./reset";
-import { restoreImg } from "./restore";
-import { safeCallback } from "./callback";
-import { removeClass } from "./class";
-import { updateLoadingCount } from "./counters";
-import { hasStatusLoading, resetStatus } from "./data";
+import { removeEventListeners } from "./event.js";
+import { resetSourcesImg } from "./reset.js";
+import { restoreImg } from "./restore.js";
+import { safeCallback } from "./callback.js";
+import { removeClass } from "./class.js";
+import { updateLoadingCount } from "./counters.js";
+import { hasStatusLoading, resetStatus } from "./data.js";
 
 export const cancelLoading = (element, entry, settings, instance) => {
   if (!settings.cancel_on_exit) return;

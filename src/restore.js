@@ -1,7 +1,7 @@
-import { removeClass } from "./class";
+import { removeClass } from "./class.js";
 
-import { hasEmptyStatus, hasStatusNative, resetStatus } from "./data";
-import { forEachPictureSource, forEachVideoSource } from "./forEachSource";
+import { hasEmptyStatus, hasStatusNative, resetStatus } from "./data.js";
+import { forEachPictureSource, forEachVideoSource } from "./forEachSource.js";
 import {
   attrsData,
   attrsSrc,
@@ -10,7 +10,7 @@ import {
   deleteOriginalAttrs,
   restoreOriginalAttrs,
   restoreOriginalBgImage
-} from "./originalAttributes";
+} from "./originalAttributes.js";
 
 export const restoreImg = (imgEl) => {
   forEachPictureSource(imgEl, (sourceEl) => {

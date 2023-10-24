@@ -1,5 +1,5 @@
-import { loadNative } from "./load";
-import { setToLoadCount } from "./counters";
+import { loadNative } from "./load.js";
+import { setToLoadCount } from "./counters.js";
 
 const tagsWithNativeLazy = ["IMG", "IFRAME", "VIDEO"];
 

@@ -1,4 +1,4 @@
-import { DATA, ORIGINALS, POSTER, SIZES, SRC, SRCSET } from "./constants.js";
+import { DATA, ORIGINALS, POSTER, SIZES, SRC, SRCSET } from "./constants.js.js";
 
 export const attrsSrc = [SRC];
 export const attrsSrcPoster = [SRC, POSTER];
