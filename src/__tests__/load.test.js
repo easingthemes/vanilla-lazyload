@@ -1,10 +1,10 @@
 import expectExtend from "./lib/expectExtend.js";
-import getFakeInstance from "./lib/getFakeInstance";
+import getFakeInstance from "./lib/getFakeInstance.js";
 
-import { load } from "../load";
-import { getExtendedSettings } from "../defaults";
-import { getStatus } from "../data";
-import { statusLoading } from "../elementStatus";
+import { load } from "../load.js";
+import { getExtendedSettings } from "../defaults.js";
+import { getStatus } from "../data.js";
+import { statusLoading } from "../elementStatus.js";
 
 expectExtend(expect);
 

@@ -1,14 +1,14 @@
 import { DATA, POSTER, SIZES, SRC, SRCSET } from "./constants.js";
-import { getData, setStatus } from "./data";
-import { statusApplied, statusLoading } from "./elementStatus";
-import { safeCallback } from "./callback";
-import { addClass } from "./class";
-import { getTempImage } from "./tempImage";
-import { isHiDpi } from "./environment";
-import { unobserve } from "./unobserve";
-import { updateLoadingCount } from "./counters";
-import { forEachPictureSource, forEachVideoSource } from "./forEachSource";
-import { attrsData, attrsSrc, attrsSrcPoster, attrsSrcSrcsetSizes, setOriginalsObject } from "./originalAttributes";
+import { getData, setStatus } from "./data.js";
+import { statusApplied, statusLoading } from "./elementStatus.js";
+import { safeCallback } from "./callback.js";
+import { addClass } from "./class.js";
+import { getTempImage } from "./tempImage.js";
+import { isHiDpi } from "./environment.js";
+import { unobserve } from "./unobserve.js";
+import { updateLoadingCount } from "./counters.js";
+import { forEachPictureSource, forEachVideoSource } from "./forEachSource.js";
+import { attrsData, attrsSrc, attrsSrcPoster, attrsSrcSrcsetSizes, setOriginalsObject } from "./originalAttributes.js";
 
 export const manageApplied = (element, settings, instance) => {
   addClass(element, settings.class_applied);

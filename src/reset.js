@@ -1,4 +1,4 @@
-import { SIZES, SRC, SRCSET } from "./constants.js.js";
+import { SIZES, SRC, SRCSET } from "./constants.js";
 import { forEachPictureSource } from "./forEachSource.js";
 
 const removeImageAttributes = (element) => {

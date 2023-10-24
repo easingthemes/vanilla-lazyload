@@ -1,11 +1,11 @@
 import expectExtend from "./lib/expectExtend.js";
-import getFakeInstance from "./lib/getFakeInstance";
+import getFakeInstance from "./lib/getFakeInstance.js";
 
-import { cancelLoading } from "../cancelOnExit";
-import { getExtendedSettings } from "../defaults";
-import { getStatus, setStatus } from "../data";
-import { statusLoaded } from "../elementStatus";
-import { setSources } from "../set";
+import { cancelLoading } from "../cancelOnExit.js";
+import { getExtendedSettings } from "../defaults.js";
+import { getStatus, setStatus } from "../data.js";
+import { statusLoaded } from "../elementStatus.js";
+import { setSources } from "../set.js";
 
 expectExtend(expect);
 

@@ -1,9 +1,9 @@
 import expectExtend from "./lib/expectExtend.js";
-import getFakeInstance from "./lib/getFakeInstance";
-import { getExtendedSettings } from "../defaults";
-import { restore } from "../restore";
-import { load } from "../load";
-import { getStatus } from "../data";
+import getFakeInstance from "./lib/getFakeInstance.js";
+import { getExtendedSettings } from "../defaults.js";
+import { restore } from "../restore.js";
+import { load } from "../load.js";
+import { getStatus } from "../data.js";
 
 const url1 = "1.gif";
 const url2 = "2.gif";

@@ -1,7 +1,7 @@
 import { supportsIntersectionObserver } from "./environment.js";
-import { onEnter, onExit } from "./intersectionHandlers";
-import { shouldUseNative } from "./native";
-import { resetObserver } from "./unobserve";
+import { onEnter, onExit } from "./intersectionHandlers.js";
+import { shouldUseNative } from "./native.js";
+import { resetObserver } from "./unobserve.js";
 
 export const isIntersecting = (entry) => entry.isIntersecting || entry.intersectionRatio > 0;
 

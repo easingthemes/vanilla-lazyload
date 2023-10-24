@@ -1,9 +1,9 @@
 import expectExtend from "./lib/expectExtend.js";
-import getFakeInstance from "./lib/getFakeInstance";
-import { getExtendedSettings } from "../defaults";
+import getFakeInstance from "./lib/getFakeInstance.js";
+import { getExtendedSettings } from "../defaults.js";
 
-import { setSources } from "../set";
-import { getOriginalAttrs } from "../originalAttributes";
+import { setSources } from "../set.js";
+import { getOriginalAttrs } from "../originalAttributes.js";
 
 expectExtend(expect);
 

@@ -1,8 +1,8 @@
 import expectExtend from "./lib/expectExtend.js";
-import getFakeInstance from "./lib/getFakeInstance";
-import { getExtendedSettings } from "../defaults";
+import getFakeInstance from "./lib/getFakeInstance.js";
+import { getExtendedSettings } from "../defaults.js";
 
-import { resetSourcesImg } from "../reset";
+import { resetSourcesImg } from "../reset.js";
 
 expectExtend(expect);
 

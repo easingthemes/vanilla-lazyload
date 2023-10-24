@@ -1,4 +1,4 @@
-import { statusApplied, statusError, statusLoaded, statusLoading, statusNative } from "./elementStatus";
+import { statusApplied, statusError, statusLoaded, statusLoading, statusNative } from "./elementStatus.js";
 
 const dataPrefix = "data-";
 const statusDataName = "ll-status";
